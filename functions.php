@@ -630,3 +630,12 @@ function twentyeleven_get_gallery_images() {
 
 	return $images;
 }
+
+function change_pw_text($content) {
+    $content = str_replace(
+            'This post is password protected. To view it please enter your password below:',
+            'This resource is password protected. To view it please enter your password below:',
+            $content);
+    return $content;
+}
+add_filter('the_content','change_pw_text');
