@@ -82,7 +82,7 @@ msgstr ""
 
 #: comments.php:17
 msgid ""
-"This post is password protected. Enter the password to view any comments."
+"This resource is password protected. Enter the password to view any comments."
 msgstr ""
 
 #: comments.php:33
